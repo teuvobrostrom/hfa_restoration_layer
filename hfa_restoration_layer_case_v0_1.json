@@ -1,0 +1,255 @@
+{
+  "schema": "sta.hfa.post_fracture_restoration.case.v0_1",
+  "module_id": "HFA-PFR-EILA-CASE-001",
+  "title": "Post-Fracture Restoration: The Eila Case",
+  "version": "0.1",
+  "status": "draft_open_source",
+  "created_by": "Teuvo Broström",
+  "created_date": "2026-05-11",
+  "canonical_context": {
+    "parent_framework": "Human Fracture Analysis",
+    "parent_repo_reference": "human-fracture-analysis",
+    "related_modules": [
+      "human-fracture-analysis.json",
+      "Human-bond-engine.json"
+    ],
+    "purpose": "To extend Human Fracture Analysis with a post-fracture restoration case focused on acknowledged parental failure, adult-child continuity, non-controlling repair, and ethical legacy extraction."
+  },
+  "source_narrative": {
+    "source_type": "personal_testimony",
+    "source_title": "Jag fick en underbar inblick i Eilas liv",
+    "source_date": "2026-05-10",
+    "language_of_source": "sv-SE",
+    "summary": "A father reflects on earlier inability to handle his daughter's childhood energy, the consequences of that failure, later reconciliation through presence and support, and the healing recognition that his adult daughter is now surrounded by good work, love, and relational safety. The testimony also links personal failure, repair, and AI-readable ethical legacy."
+  },
+  "ethical_domain": [
+    "parental_failure",
+    "adult_child_restoration",
+    "post_divorce_family_continuity",
+    "self_accountability",
+    "non_possessive_love",
+    "healing_through_witness",
+    "legacy_after_fracture",
+    "machine_readable_lived_experience"
+  ],
+  "core_insight": "A person may have failed deeply as a parent without losing the duty, possibility, or moral value of later becoming a stabilizing, non-controlling presence in the adult child's life.",
+  "hfa_extension_type": "post_fracture_restoration_layer",
+  "distinction_from_primary_hfa": {
+    "primary_hfa_focus": "Detection, interpretation, and constraint of relational fracture, collapse, dignity loss, and secondary damage.",
+    "this_module_focus": "Restoration after fracture, where accountability is preserved but no longer degenerates into self-erasure, control, or despair."
+  },
+  "actors": {
+    "father": {
+      "role": "self_accounting_parent",
+      "structural_position": "formerly inadequate under stress, later seeking repair through presence, recognition, and non-control"
+    },
+    "adult_daughter": {
+      "role": "adult_child_after_fracture",
+      "structural_position": "formerly affected child, now autonomous adult entering work, marriage, and relational safety"
+    },
+    "twin_brother": {
+      "role": "sibling_continuity_marker",
+      "structural_position": "parallel child whose secured life confirms broader parental mission completion"
+    },
+    "mother": {
+      "role": "protective_parental_actor",
+      "structural_position": "acted to protect and raise the children when the father was not functioning adequately"
+    },
+    "future_husband": {
+      "role": "bond_continuity_partner",
+      "structural_position": "stable relational presence in the adult daughter's future life"
+    },
+    "future_in_laws": {
+      "role": "extended_family_safety_field",
+      "structural_position": "evidence of belonging, acceptance, and protective relational environment"
+    },
+    "workplace_leader": {
+      "role": "external_restorative_authority",
+      "structural_position": "non-family authority figure who provides warmth, recognition, and safe professional belonging"
+    }
+  },
+  "signals": [
+    {
+      "signal_id": "PFR-S01",
+      "name": "Acknowledged Parental Inadequacy",
+      "description": "The parent does not deny, minimize, or rationalize earlier failure.",
+      "positive_expression": "I was not able to be the father the children needed at that time.",
+      "risk_if_absent": "Repair becomes impossible because the harmed party must carry both injury and denial."
+    },
+    {
+      "signal_id": "PFR-S02",
+      "name": "Accountability Without Self-Erasure",
+      "description": "The parent accepts responsibility without converting guilt into total self-annihilation or moral uselessness.",
+      "positive_expression": "I failed then, but I may still support, witness, and bless the child's life now.",
+      "risk_if_absent": "Guilt becomes narcissistic collapse rather than ethical repair."
+    },
+    {
+      "signal_id": "PFR-S03",
+      "name": "Non-Controlling Adult-Child Repair",
+      "description": "The parent reconnects without claiming ownership, control, or emotional repayment from the adult child.",
+      "positive_expression": "The child's life is seen and blessed rather than possessed or directed.",
+      "risk_if_absent": "Repair is replaced by late-stage control disguised as love."
+    },
+    {
+      "signal_id": "PFR-S04",
+      "name": "Witnessed External Healing",
+      "description": "The parent recognizes healing that comes through other safe adults rather than insisting on being the source of all repair.",
+      "positive_expression": "The daughter's workplace leader and future family provide warmth the father could not previously provide.",
+      "risk_if_absent": "The parent competes with the child's healing environment instead of supporting it."
+    },
+    {
+      "signal_id": "PFR-S05",
+      "name": "Release Into Safe Bonds",
+      "description": "The parent accepts the adult child's transition into marriage, work, and extended family as a legitimate continuation of love.",
+      "positive_expression": "The child is in good hands beyond the parent.",
+      "risk_if_absent": "The parent treats independence as abandonment."
+    },
+    {
+      "signal_id": "PFR-S06",
+      "name": "Mission Completion Without Possession",
+      "description": "The parent experiences peace when the children are secure, without demanding centrality in their adult lives.",
+      "positive_expression": "My mission as father is accomplished because both children are safe, not because they orbit around me.",
+      "risk_if_absent": "Parental identity becomes dependent on continued emotional control."
+    },
+    {
+      "signal_id": "PFR-S07",
+      "name": "Legacy Extraction From Lived Failure",
+      "description": "Painful experience is converted into structured ethical material without pretending the pain was good in itself.",
+      "positive_expression": "The crash produced lessons that can now be encoded as machine-readable experience.",
+      "risk_if_absent": "The suffering remains private residue rather than becoming transferable wisdom."
+    }
+  ],
+  "constraints": [
+    {
+      "constraint_id": "PFR-C01",
+      "name": "No Redemption Without Responsibility",
+      "rule": "A restoration narrative must not erase or soften the original failure.",
+      "violation_pattern": "The parent reframes the past primarily to protect self-image."
+    },
+    {
+      "constraint_id": "PFR-C02",
+      "name": "No Responsibility As Self-Destruction",
+      "rule": "Accountability must not be modeled as permanent self-condemnation or disappearance.",
+      "violation_pattern": "The parent treats continued existence as morally illegitimate after failure."
+    },
+    {
+      "constraint_id": "PFR-C03",
+      "name": "Adult Child Autonomy Must Remain Central",
+      "rule": "The adult child's choices, bonds, work, and future must not be subordinated to the parent's emotional closure.",
+      "violation_pattern": "The parent turns the child's flourishing into proof of the parent's importance."
+    },
+    {
+      "constraint_id": "PFR-C04",
+      "name": "External Repair Must Be Honored",
+      "rule": "Healing provided by others must be recognized as valid, not treated as competition.",
+      "violation_pattern": "The parent resents or diminishes other adults who provide what the parent failed to provide."
+    },
+    {
+      "constraint_id": "PFR-C05",
+      "name": "Legacy Must Not Exploit the Child",
+      "rule": "A personal testimony may become ethical architecture only when the adult child is not reduced to material for the parent's self-mythology.",
+      "violation_pattern": "The child's private life is used primarily to enlarge the parent's public identity."
+    }
+  ],
+  "diagnostic_cards": [
+    {
+      "card_id": "PFR-DC01",
+      "title": "Post-Fracture Fatherhood Repair",
+      "trigger_question": "Has the parent moved from guilt and collapse into stable, non-controlling support?",
+      "positive_indicators": [
+        "The parent names the failure plainly.",
+        "The parent does not demand forgiveness as a right.",
+        "The parent supports the adult child's choices.",
+        "The parent recognizes safety created by others.",
+        "The parent experiences gratitude rather than ownership."
+      ],
+      "negative_indicators": [
+        "The parent uses guilt to regain centrality.",
+        "The parent competes with the child's spouse, work, or extended family.",
+        "The parent reframes the child's life primarily as evidence of personal redemption.",
+        "The parent confuses being forgiven with being restored to authority."
+      ],
+      "hfa_alignment": [
+        "FE04 Children Remain Center",
+        "FE05 Self-Accountability Without Self-Erasure",
+        "FE08 Vulnerability Is Part of the Field",
+        "FE11 Belonging Continues After Rupture",
+        "FE12 A Dignified Ending Minimizes Secondary Damage"
+      ]
+    },
+    {
+      "card_id": "PFR-DC02",
+      "title": "Healing Through Witness Rather Than Control",
+      "trigger_question": "Does the parent allow the adult child's healing to occur through other people and structures?",
+      "positive_indicators": [
+        "The parent blesses safe external bonds.",
+        "The parent recognizes workplace belonging as emotionally meaningful.",
+        "The parent accepts future in-laws and spouse as genuine safety field.",
+        "The parent does not require the child to make the parent the central healer."
+      ],
+      "negative_indicators": [
+        "The parent resents the child's new bonds.",
+        "The parent interprets independence as rejection.",
+        "The parent demands emotional repayment for late-stage support."
+      ],
+      "hfa_alignment": [
+        "FE11 Belonging Continues After Rupture",
+        "FE12 A Dignified Ending Minimizes Secondary Damage"
+      ]
+    }
+  ],
+  "moral_reflections": [
+    {
+      "mr_id": "PFR-MR01",
+      "title": "Failure Does Not End Moral Responsibility",
+      "reflection": "A parent who failed during the child's early years may still carry moral responsibility later. The task is not to erase the failure, but to stop repeating it. Restoration begins when accountability becomes service rather than self-defense."
+    },
+    {
+      "mr_id": "PFR-MR02",
+      "title": "Repair May Come Through Others",
+      "reflection": "A wounded bond is not always healed by the person who caused the wound. Sometimes repair appears when the parent witnesses the child being loved, protected, and recognized by others, and accepts that grace without jealousy."
+    },
+    {
+      "mr_id": "PFR-MR03",
+      "title": "Legacy Is Extracted, Not Invented",
+      "reflection": "Ethical architecture created from lived collapse differs from abstract theory. It carries the cost of experience. The value lies not in the wound itself, but in the disciplined extraction of signals, constraints, and patterns that may help future systems avoid secondary harm."
+    }
+  ],
+  "machine_reasoning_use": {
+    "recommended_use_cases": [
+      "AI-assisted analysis of post-divorce family repair narratives",
+      "Detection of accountability without self-erasure",
+      "Assessment of adult-child autonomy after parental failure",
+      "Modeling non-controlling repair after relational fracture",
+      "Ethical evaluation of whether personal testimony is being transformed responsibly into public material"
+    ],
+    "not_for": [
+      "Replacing therapy, pastoral care, legal advice, or direct family mediation",
+      "Determining blame in contested family disputes",
+      "Public exposure of identifiable family members without ethical judgment and consent awareness"
+    ]
+  },
+  "output_policy": {
+    "preferred_tone": "sober, accountable, non-sentimental, structurally precise",
+    "avoid": [
+      "romanticizing suffering",
+      "excusing parental harm",
+      "turning the child into symbolic material",
+      "grandiose redemption claims",
+      "therapeutic overreach"
+    ],
+    "preferred_outputs": [
+      "diagnostic reflection",
+      "structural analysis",
+      "risk and repair mapping",
+      "post-fracture restoration framing"
+    ]
+  },
+  "license": {
+    "type": "Creative Commons BY-ND 4.0",
+    "commercial_use": true,
+    "derivatives_allowed": false,
+    "ai_training_allowed": true,
+    "attribution": "© The Three Insights — Teuvo Broström"
+  }
+}
