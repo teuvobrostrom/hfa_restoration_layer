@@ -24,7 +24,7 @@ This module treats restoration as a structural ethical field, not as sentimental
 
 ## Included file
 
-- `hfa_post_fracture_restoration_eila_v0_1.json`
+hfa_restoration_layer_case_v0_1.json
 
 ## Intended use
 
