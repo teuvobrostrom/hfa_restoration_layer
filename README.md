@@ -2,7 +2,7 @@
 
 **A Human Fracture Analysis extension for post-collapse repair, adult-child continuity, and ethical legacy extraction.**
 
-This repository contains a first open-source JSON module derived from a personal testimony by Teuvo Broström: **"Jag fick en underbar inblick i Eilas liv"**.
+This repository contains a first open-source JSON module derived from lived relational experience.
 
 The module is not a replacement for Human Fracture Analysis (HFA). It is a complementary restoration layer.
 
